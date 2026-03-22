@@ -29,6 +29,7 @@ class NaverClientIntegrationTest extends Specification {
 
         then:
         response.total == 38
+        print response
     }
 
 }
