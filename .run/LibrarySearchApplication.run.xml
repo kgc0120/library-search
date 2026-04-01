@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LibrarySearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <envs>
+      <env name="NAVER_CLIENT_ID" value="P9VGbmCyakWcWvoykcrL" />
+      <env name="NAVER_CLIENT_SECRET" value="QDKPDRLE95" />
+    </envs>
+    <module name="library-search.search-api.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.library.LibrarySearchApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
