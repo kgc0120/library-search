@@ -17,3 +17,13 @@ spring:
     properties:
       hibernate:
         format_sql: true
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        slidingWindowSize: 100
+        minimumNumberOfCalls: 10
+        wait-duration-in-open-state:
+          seconds: 20
+        failureRateThreshold: 50
+        permitted-number-of-calls-in-half-open-state: 10
