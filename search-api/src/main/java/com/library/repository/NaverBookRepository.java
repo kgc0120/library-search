@@ -19,6 +19,7 @@ public class NaverBookRepository implements BookRepository {
 
     @Override
     public PageResult<SearchResponse> search(String query, int page, int size) {
+//        throw new RuntimeException("error!");
         NaverBookResponse response = naverClient.search(query, page, size);
         List<SearchResponse> responses = response.getItems().stream()
                 .map(this::createResponse)
